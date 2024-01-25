@@ -1,0 +1,126 @@
+.about.container{ 
+	max-width: 1180px;
+	min-height: 553px;
+	margin: 77px auto;
+	position: relative;
+}
+
+.about__title{
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 48px;
+	color: #383838;
+
+}
+
+
+.about__title__blocks{
+	position: absolute;
+	top: 135px;
+	left: 40px;
+}
+
+.about__text-block{
+	position: absolute;
+	top: 50px;
+	left: 430px;
+}
+
+.about__item{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: start;
+	padding: 25px 65px;
+	max-width: 425px;
+	min-height: 183px;
+	border-radius: 15px;
+	background: #F2F6FC;
+}
+
+.about__item__title{
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 32px;
+	color: #383838;
+}
+
+.about__item__info{
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	color: #383838;
+	margin-top: 5px;
+}
+
+.about__item.mission{
+	position: relative;
+}
+
+.about__item.goal{
+	position: relative;
+	margin-top: 30px;
+}
+
+
+.checkmark-icon{
+	position: absolute;
+	left: -40px;
+}
+
+.star-icon{
+	position: absolute;
+	left: -40px;
+}
+
+.about__comapny-info__text{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #383838;
+}
+
+.about.flex-container{
+	align-items: center;
+	margin-top: 10px;
+}
+
+.about__text-block{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 55px;
+	margin-top: 85px;
+}
+
+.about__company-info__list li{
+	margin-top: 17px;
+}
+
+
+.about__company-info__list li::before{
+	content: url('/sources/bluedotli.svg');
+	margin-right: 10px;
+}
+
+.about__company-info__list{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #383838;
+}
+
+.info-text{
+	margin-top: 15px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #383838;
+}
+
+.huge-elipse-group{
+	z-index: -1;
+	position: absolute;
+	top: -80px;
+	left: 100px;
+}

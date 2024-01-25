@@ -1,0 +1,137 @@
+
+ .mail-icon{
+	cursor: pointer;
+ }
+ .phone-icon:hover{
+	cursor: pointer;
+ }
+ .whatsapp-icon{
+	transition: .1s;
+	cursor: pointer;
+ }
+ .whatsapp-icon:hover{
+	
+	filter: brightness(0) saturate(100%);
+ }
+ 
+ .telegram-icon{
+	transition: .1s;
+	cursor:pointer;
+	margin-left: 40px;
+ }
+ .telegram-icon:hover{
+
+	filter: brightness(0) saturate(100%);
+ }
+
+ .header{
+	display: flex;
+	flex-direction: row;
+	margin-left: 376px;
+ }
+ 
+ .header__splited-menu{
+	display: flex;
+	flex-direction: column;
+	max-width: 685px;
+	margin-left: 38px;
+	margin-top: 22px;
+ }
+ 
+
+ .header__splited-menu__top{
+	display: flex;
+ }
+
+ .header__splited-menu__top__mail{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+ }
+ .header__splited-menu__top__phone{
+	display: flex;
+	margin-left: 60px;
+	align-items: center;
+ }
+ .header__splited-menu__top__infotext{
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	margin-left: 15px;
+}
+
+.header__splited-menu__top__phonenumber{
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	margin-left: 15px;
+}
+
+.header__splited-menu__top__iconsgroup{
+	display: flex;
+	margin-left: 245px;
+	max-width: 76px;
+	justify-content: space-between;
+}
+
+
+.header__splited-menu__delimiterline{
+	height: 1px;
+	max-width: 682px;
+	background-color: #E6EDF8;
+	margin: 10px 0;
+}
+
+.header__splited-menu__bottom__list{
+	display: flex;
+	flex-direction: row;
+}
+
+.header__splited-menu__bottom__list li{
+	margin-right: 40px;
+}
+
+.header__splited-menu__bottom__list li:last-child{
+	margin-right: 0px;
+}
+
+.header__splited-menu__bottom__list li a{
+	
+	flex-wrap: nowrap;
+	font-size: 16px;
+	height: 24px;
+	font-weight: 500;
+	color: #383838;
+	text-wrap: nowrap;
+}
+
+.header__splited-menu__bottom__list li a:hover{
+	transition: 1s;
+	text-decoration: underline;
+}
+
+
+.header__callback-btn{
+	margin-top: 30px;
+	transition: .25s;
+	background-color: #0046BB;
+	width: 190px;
+	height: 55px;
+	border-radius: 30px;
+	margin-left: 40px;
+}
+
+.header__callback-btn__text{
+	color: #FFFFFF;
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.header__callback-btn:hover{
+	background-color: white;
+	border: #0046BB solid 1px;
+}
+
+.header__callback-btn:hover p{
+	color: #0046BB;
+}

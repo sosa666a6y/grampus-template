@@ -1,0 +1,24 @@
+@font-face {
+	font-family: PT Root Bold; /* Гарнитура шрифта */
+	src: url(/fonts/pt-root-ui_bold.ttf); /* Путь к файлу со шрифтом */
+  }
+  @font-face {
+	font-family: PT Root Medium; /* Гарнитура шрифта */
+	src: url(/fonts/pt-root-ui_medium.ttf); /* Путь к файлу со шрифтом */
+  }
+  @font-face {
+	font-family: PT Root Regular; /* Гарнитура шрифта */
+	src: url(/fonts/pt-root-ui_regular.ttf); /* Путь к файлу со шрифтом */
+  }
+
+  .medium{
+	font-family: PT Root Medium;
+	}
+	
+	.bold{
+		font-family: PT Root Bold;
+	}
+	
+	.regular{
+		font-family: PT Root Regular;
+	}

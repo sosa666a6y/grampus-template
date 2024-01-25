@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="robots" content="none">
+	<link rel="stylesheet" href="./css/main.css">
+	<title>Grampus template</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+ <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+	<header class="header container">
+		<img src="./sources/logo.svg" alt="nopic" class="header__logo">
+		<div class="header__splited-menu">
+			<div class="header__splited-menu__top">
+				<div class="header__splited-menu__top__mail">
+					<img src="./sources/mail_icon.svg" alt="noicon" class="header__splited-menu__top mail-icon">
+					<p class="header__splited-menu__top__infotext regular">info@orion.ru</p>
+				</div>
+				<div class="header__splited-menu__top__phone">
+					<img src="./sources/phone_icon.svg" alt="noicon" class="header__splited-menu__top phone-icon">
+					<p class="header__splited-menu__top__phonenumber regular">8 994 432-68-46</p>
+				</div>
+				<div class="header__splited-menu__top__iconsgroup">
+					<img src="./sources/whatsapp-icon.svg" alt="noicon" class="whatsapp-icon">
+					<img src="./sources/telegram-icon.svg" alt="noicon" class="telegram-icon">
+				</div>
+			</div>
+			<div class="header__splited-menu__delimiterline">
+			</div>
+			<div class="header__splited-menu__bottom">
+				<ul class="header__splited-menu__bottom__list">
+					<li class="header__splited-menu__bottom__list__item medium"><a href="#materials">Услуги</a></li>
+					<li class="header__splited-menu__bottom__list__item medium"><a href="#about">О компании</a></li>
+					<li class="header__splited-menu__bottom__list__item medium"><a href="#">Сертификаты</a></li>
+					<li class="header__splited-menu__bottom__list__item medium"><a href="#">Отзывы</a></li>
+					<li class="header__splited-menu__bottom__list__item medium"><a href="#">Вопрос – ответ</a></li>
+					<li class="header__splited-menu__bottom__list__item medium"><a href="#">Контакты</a></li>
+				</ul>
+			</div>
+		</div>
+		<button class="header__callback-btn">
+			<p class="header__callback-btn__text regular">Заказать звонок</p>
+		</button>
+		</div>
+	</header>
+
+	<section class="consultation">
+		<h1 class="consultation__title bold">
+			Снабжение <br> строительных <br> объектов
+		</h1>
+		<h6 class="consultation__info regular">
+			Предоставляем материалы по Москве, <br> 
+			Санкт-Петербургу и их областям
+		</h6>
+		<button class="consultation__btn">
+			<p class="consultation__btn__text medium">Бесплатная консультация</p>
+		</button>
+	</section>
+
+	<section class="materials container" id="materials">
+		<div class="material__categories">
+			<h2 class="material__categories__text regular">
+				Категории материалов
+			</h2>
+			<div class="material__categories__icons">
+				<img src="/sources/Arrow - Left.svg" alt="noicon" class="swiper-button-prev left-arrow">	
+				<img src="/sources/Arrow - Right.svg" alt="noicon" class="swiper-button-next right-arrow ">
+			</div>
+			<div class="swiper materials__swiper materials__categories__slider">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide materials__categories__slider__item">
+						<img src="./sources/elipse-group.svg" alt="" class = "elipse-group">
+						<img src="/sources/доски-removebg-preview 1.svg" alt="nopic" class="boards">
+						<img src="/sources/Ellipse 21 (1).svg" alt="" class="elipses">
+						<h4 class="title medium">Строительные <br> материалы</h4>
+							
+						<img src="./sources/Arrow - Right.svg" alt="" class="arrow-icon">
+					</div>
+					<div class="swiper-slide materials__categories__slider__item">
+						<img src="./sources/elipse-group.svg" alt="" class = "elipse-group">
+						<img src="/sources/крепеж 1.svg" alt="nopic" class="fixings">
+						<img src="/sources/Ellipse 21 (1).svg" alt="noicon" class="elipses">
+						<h4 class="title medium">Крепёжные <br> инструменты</h4>
+						<img src="./sources/Arrow - Right.svg" alt="noicon" class="arrow-icon">
+					</div>
+					<div class="swiper-slide materials__categories__slider__item">
+						<img src="./sources/elipse-group.svg" alt="" class = "elipse-group">
+						<img src="/sources/072_original-removebg-preview 1.svg" alt="nopic" class="covering">
+						<img src="/sources/Ellipse 21 (1).svg" alt="noicon" class="elipses">
+						<h4 class="title medium">Отделочные <br> материалы</h4>
+						<img src="./sources/Arrow - Right.svg" alt="noicon" class="arrow-icon">
+					</div>
+				</div>
+			</div>
+		
+		</div>
+
+		<div class="materials__ask-form container">
+			<h2 class="materials__ask-form__title medium">
+				Не нашли нужную  <br> категорию материала?
+			</h2>
+			<h4 class="materials__ask-form__message regular">
+				Оставьте номер телефона, мы перезвоним в течение рабочего дня <br> и проконсультируем по всем вопросам
+			</h4>
+			<form action="#" class="materials__ask-form__form">
+				<input type="text" class="materials__ask-form__form__input-name" placeholder="Ваше имя">
+				<input type="tel" class="materials__ask-form__form__input-phone" placeholder="Номер телефона*">
+				<div class ="lower-line">
+					<h6 class="warning regular"> *Нажимая на кнопку, Вы соглашаетесь <br> <span class="underline"> на обработку персональных данных</span> </h6>
+					<button type="submit"><p class="btn-text">Отправить</p></button>
+				</div>
+			</form>
+		</div>
+	</section>
+
+	<section class="about container" id="about">
+		<img src="./sources/huge-elipse-group.svg" alt="" class="huge-elipse-group">
+		<h2 class="about__title medium">ООО «ОРИОН» —  мы ценим своих клиентов и их время, <br> потому что знаем, как для них это важно</h2>
+		<div class="about flex-container">
+			<div class="about__title__blocks">
+				<div class="about__item mission">
+					<h4 class="about__item__title medium">Миссия</h4>
+					<p class="about__item__info medium">Мы стремимся создать все условия, <br> чтобы наши клиенты получили <br> максимальную выгоду от <br> сотрудничества с нами</p>
+					<img src="/sources/starmission.svg" alt="noicon" class="star-icon">
+				</div>
+				<div class="about__item goal">
+					<h4 class="about__item__title medium">Цель</h4>
+					<p class="about__item__info medium">Обеспечить выполнение заказов <br> в минимальные сроки по выгодной <br> цене</p>
+					<img src="/sources/checkmarkgoal.svg" alt="noicon" class="checkmark-icon">
+				</div>
+			</div>
+			<div class="about__text-block">
+				<div class="about__company-info">
+					<ul class="about__company-info__list regular" >
+						<p class="regular">Профиль нашей компании – снабжение:</p>
+						<li class="regular">Строительными  и отделочными материалами</li>
+						<li class="regular">Поставкой крепежных изделий</li>
+						<li class="regular">Ручного инструмента </li>
+						<li class="regular">Оснастками  для электроинструмента и т.д. </li>
+					</ul>
+					<p class="info-text regular">Работаем как оптом, так и в розницу. Обеспечим своевременную доставку по  Санкт- <br> Петербургу  и Северо-Западному региону, по  Москве и Московской области <br><br> Компания ООО «Орион» активно работает на рынке продаж с 2015года. За время работы мы <br> установили прочные взаимоотношениями с клиентами. Мы открыты для сотрудничества и <br> активно ищем новых заказчиков  <br><br>Мы тщательно отслеживаем все новинки товара для более полного и качественного <br> обслуживания. Для увеличения потребительской аудитории способствует лояльная ценовая <br> политика и принципы индивидуального обслуживания в каждом отдельном случае</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="advanteges">
+		<h2 class="advanteges__title bold">Что привлекает наших клиентов?</h2>
+		<p class="advanteges__text regular">Наши преимущества</p>
+		<div class="advanteges__grid ">
+			<div class="advantages__grid__item warranty">
+				<h6 class="text medium">Гарантия на каждую <br> товарную позицию</h6>
+				<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<circle cx="30" cy="30" r="30" fill="#0046BB"/>
+					<path d="M41.2915 20.6388C41.2448 20.3036 41.0036 20.0278 40.6776 19.9372L30.2277 17.0311C30.0787 16.9896 29.9214 16.9896 29.7723 17.0311L19.3224 19.9372C18.9964 20.0278 18.7552 20.3035 18.7085 20.6388C18.6479 21.0746 17.2652 31.3722 20.8118 36.495C24.3541 41.6116 29.5798 42.9228 29.8005 42.9762C29.8661 42.992 29.9329 42.9998 30 42.9998C30.0671 42.9998 30.1339 42.9919 30.1995 42.9762C30.4203 42.9228 35.646 41.6116 39.1883 36.495C42.7348 31.3723 41.3521 21.0747 41.2915 20.6388ZM36.7388 26.6506L29.611 33.7785C29.4451 33.9444 29.2276 34.0274 29.0102 34.0274C28.7928 34.0274 28.5753 33.9445 28.4094 33.7785L24.0023 29.3714C23.8429 29.2121 23.7534 28.996 23.7534 28.7706C23.7534 28.5453 23.843 28.3291 24.0023 28.1699L24.8774 27.2948C25.2092 26.9631 25.7472 26.963 26.0789 27.2948L29.0102 30.2261L34.6622 24.5739C34.8215 24.4145 35.0377 24.325 35.263 24.325C35.4883 24.325 35.7045 24.4145 35.8638 24.5739L36.7388 25.449C37.0706 25.7808 37.0706 26.3188 36.7388 26.6506Z" fill="white"/>
+					</svg>					
+			</div>
+			<div class="advantages__grid__item choice ">
+				<h6 class="text medium">Ориентир на предпочтение <br>клиента при выборе товара</h6>
+				<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<circle cx="30" cy="30" r="30" fill="#0046BB"/>
+					<g clip-path="url(#clip0_31_104)">
+					<path d="M42.4599 28.6514L37.2363 32.9175C36.9225 33.1729 36.7842 33.5878 36.8799 33.9814L38.4597 40.4337C38.6938 41.4816 37.8959 42.3487 37.0023 42.3487C36.7363 42.3487 36.4544 42.2689 36.1937 42.0987L30.4808 38.5879C30.1403 38.3805 29.7148 38.3805 29.3743 38.5932L23.7305 42.104C23.4699 42.2795 23.188 42.354 22.9167 42.354C22.0018 42.354 21.1773 41.487 21.4645 40.4391L23.0443 33.9814C23.1401 33.5878 23.0018 33.1782 22.6933 32.9228L17.5388 28.6621C16.4803 27.7578 17.0867 26.0184 18.4431 25.9439L25.1189 25.4598C25.5178 25.4332 25.8636 25.1779 26.0125 24.8109L28.5658 18.6085C28.8318 17.9649 29.4169 17.6458 30.002 17.6458C30.5871 17.6458 31.1723 17.9649 31.4382 18.6085L33.9862 24.8056C34.1351 25.1726 34.4862 25.4226 34.8798 25.4545L41.5556 25.9386C42.9173 26.013 43.5184 27.7471 42.4599 28.6514Z" fill="white"/>
+					</g>
+					<defs>
+					<clipPath id="clip0_31_104">
+					<rect width="26" height="26" fill="white" transform="translate(17 17)"/>
+					</clipPath>
+					</defs>
+					</svg>					
+			</div>
+			<div class="advantages__grid__item deadlines">
+				<h6 class="text medium">Сжатые сроки поставки</h6>	
+				<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<circle cx="30" cy="30" r="30" fill="#0046BB"/>
+					<path d="M31.6896 21.2132V19.1943H32.6111C33.217 19.1943 33.7083 18.703 33.7083 18.0971C33.7083 17.4913 33.2171 17 32.6111 17H27.3888C26.7829 17 26.2917 17.4913 26.2917 18.0971C26.2917 18.703 26.7829 19.1943 27.3888 19.1943H28.3104V21.2132C23.0672 22.0281 19.0414 26.5734 19.0414 32.0415C19.0414 38.0841 23.9574 43 30 43C36.0425 43 40.9585 38.0841 40.9585 32.0415C40.9586 26.5735 36.9328 22.0282 31.6896 21.2132ZM38.7287 31.2474C38.747 31.451 38.6789 31.6529 38.5411 31.8038C38.4033 31.9548 38.2083 32.0415 38.0039 32.0415H30.7279C30.3259 32.0415 30.0001 31.7157 30.0001 31.3137V24.0377C30.0001 23.8332 30.0862 23.6381 30.2372 23.5002C30.3883 23.3623 30.5904 23.2946 30.7941 23.3129C34.9944 23.6918 38.3497 27.0471 38.7287 31.2474Z" fill="white"/>
+					</svg>					
+			</div>
+			<div class="advantages__grid__item prices">
+				<h6 class="text medium">Выгодные цены</h6>
+				<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<circle cx="30" cy="29.9973" r="30" fill="#0046BB"/>
+					<g clip-path="url(#clip0_31_128)">
+					<path d="M33.6562 29.1848C35.6755 29.1848 37.3125 27.5479 37.3125 25.5286C37.3125 23.5093 35.6755 21.8723 33.6562 21.8723C31.637 21.8723 30 23.5093 30 25.5286C30 27.5479 31.637 29.1848 33.6562 29.1848Z" fill="white"/>
+					<path d="M41.2938 30.4036C41.1313 30.1598 40.8875 29.9973 40.5625 29.9973C38.775 29.9973 37.0688 30.8098 36.0125 32.2723L35.2813 33.2473C34.3875 34.3036 33.0063 34.8723 31.625 34.8723H29.1875C28.7 34.8723 28.375 34.5473 28.375 34.0598C28.375 33.5723 28.7 33.2473 29.1875 33.2473H30.7313C32.0313 33.2473 33.25 32.1911 33.25 30.8911V30.8098C33.25 30.4036 32.8438 29.9973 32.4375 29.9973H27.4813C24.5563 29.9973 22.2 31.2973 20.9 33.4098L18.7063 36.8223C18.5438 37.0661 18.5438 37.3911 18.7063 37.6348L21.1438 41.6973C21.225 41.8598 21.4688 42.0223 21.6313 42.1036C21.7125 42.1036 21.7125 42.1036 21.7938 42.1036C21.9563 42.1036 22.1188 42.0223 22.2813 41.9411C25.3688 39.9098 28.9438 38.8536 32.6 38.8536C35.2813 38.8536 37.7188 37.3911 39.0188 35.0348L41.2125 31.1348C41.375 30.9723 41.375 30.6473 41.2938 30.4036Z" fill="white"/>
+					<path d="M28.375 25.5286C28.375 23.4973 29.5938 21.7098 31.3 20.8161C30.7313 19.5161 29.4313 18.6223 27.9688 18.6223C25.9375 18.6223 24.3125 20.2473 24.3125 22.2786C24.3125 24.3098 25.9375 25.9348 27.9688 25.9348C28.1312 25.9348 28.2125 25.9348 28.375 25.8536C28.375 25.7723 28.375 25.6911 28.375 25.5286Z" fill="white"/>
+					</g>
+					<defs>
+					<clipPath id="clip0_31_128">
+					<rect width="26" height="26" fill="white" transform="translate(17 16.9973)"/>
+					</clipPath>
+					</defs>
+					</svg>					
+			</div>
+			<div class="advantages__grid__item assortment">
+				<h6 class="text medium">Большой ассортимент</h6>
+				<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<circle cx="30" cy="30" r="30" fill="#0046BB"/>
+					<g clip-path="url(#clip0_31_140)">
+					<path d="M42.1505 24.9871H35.0129V17.8495C35.0129 17.3803 34.6326 17 34.1635 17H17.8495C17.3803 17 17 17.3803 17 17.8495V34.1634C17 34.6325 17.3803 35.0129 17.8495 35.0129H24.9871V42.1505C24.9871 42.6197 25.3674 43 25.8365 43H42.1505C42.6197 43 43 42.6197 43 42.1505V25.8365C43 25.3674 42.6197 24.9871 42.1505 24.9871ZM33.3522 32.4946C33.3522 32.9638 32.9719 33.3441 32.5027 33.3441H27.4911C27.0192 33.3441 26.6416 32.9592 26.6416 32.4946V27.483C26.6416 27.0116 27.0282 26.6335 27.4911 26.6335H32.5027C32.9646 26.6335 33.3522 27.0093 33.3522 27.483V32.4946Z" fill="white"/>
+					</g>
+					<defs>
+					<clipPath id="clip0_31_140">
+					<rect width="26" height="26" fill="white" transform="translate(17 17)"/>
+					</clipPath>
+					</defs>
+					</svg>
+					
+			</div>
+			<div class="advantages__grid__item application">
+				<h6 class="text medium">Оставить заявку</h6>
+				<img src="./sources/Ellipse 31.png" alt="" class="invisible">
+				<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<circle cx="30" cy="30" r="30" fill="#0046BB"/>
+					<g clip-path="url(#clip0_31_152)">
+					<path d="M30.0001 17C23.0151 17 17.3533 22.6623 17.3533 29.6468C17.3533 32.6241 18.3885 35.3542 20.1116 37.5132C20.8099 38.3854 21.1707 39.7803 20.5344 40.603C20.0801 41.1915 19.5796 41.5937 19.0395 41.6654C17.2783 41.9007 19.6861 44.0091 23.8139 42.3995C24.8545 41.9936 26.4739 41.8333 27.5699 42.0523C28.3552 42.2099 29.1676 42.2936 30.0006 42.2936C36.9856 42.2936 42.6474 36.6318 42.6474 29.6473C42.6474 22.6629 36.9845 17 30.0001 17Z" fill="white"/>
+					</g>
+					<defs>
+					<clipPath id="clip0_31_152">
+					<rect width="26" height="26" fill="white" transform="translate(17 17)"/>
+					</clipPath>
+					</defs>
+					</svg>					
+			</div>
+		</div>
+	</section>
+<script src="/js/main.js"></script>
+</body>
